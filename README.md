@@ -25,7 +25,7 @@ Example: find /home/Andy -type d -name pictures <br><br>
 find [directory path] -type f -size [size]
 ```
 
-Example: find /home/Andy -type f -size 10c
+Example: find /home/Andy -type f -size 10c <br>
 *(c for bytes, k for kilobytes, M megabytes, G for gigabytes)* <br><br>
 
 delete when done

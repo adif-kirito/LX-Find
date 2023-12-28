@@ -93,6 +93,7 @@ Example: grep -iRl '/folderA/flag' <br><br>
 ```
 2>/dev/null
 ```
+<br>
 
 <!-- ----------------------------------------------- -->
 ## Find Manual
@@ -100,6 +101,7 @@ Example: grep -iRl '/folderA/flag' <br><br>
 ```
 man find
 ```
+<br>
 
 <!-- ----------------------------------------------- -->
 ## Acknowledgments

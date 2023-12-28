@@ -2,7 +2,7 @@
 
 One Paragraph of project description goes here
 
-<!-- First -->
+<!-- ----------------------------------------------- -->
 ## Find files based on filename
 
 ```
@@ -11,6 +11,7 @@ find [directory path] -type f -name [filename]
 
 Example: find /home/Andy -type f -name sales.txt <br><br>
 
+<!-- ----------------------------------------------- -->
 ## Find Directory based on directory name
 
 ```
@@ -19,6 +20,7 @@ find [directory path] -type d -name [filename]
 
 Example: find /home/Andy -type d -name pictures <br><br>
 
+<!-- ----------------------------------------------- -->
 ## Find files based on size
 
 ```
@@ -27,6 +29,34 @@ find [directory path] -type f -size [size]
 
 Example: find /home/Andy -type f -size 10c <br>
 *(c for bytes, k for kilobytes, M megabytes, G for gigabytes)* <br><br>
+
+<!-- ----------------------------------------------- -->
+## Find files based on username
+
+```
+find [directory path] -type f -user [username]
+```
+
+Example: find /etc/server -type f -user john <br><br>
+
+<!-- ----------------------------------------------- -->
+## Find files based on group name
+
+```
+find [directory path] -type f -group [group name]
+```
+
+Example: find /etc/server -type f -group teamstar <br><br>
+
+<!-- ----------------------------------------------- -->
+## Find files modified after a specific date
+
+```
+find [directory path] -type f -newermt '[date and time]'
+```
+
+Example: find / -type f -newermt '6/30/2020 0:00:00' <br>
+*(all dates/times after 6/30/2020 0:00:00 will be considered a condition to look for)* <br><br>
 
 delete when done
 ## Getting Started

@@ -9,8 +9,7 @@ One Paragraph of project description goes here
 find [directory path] -type f -name [filename]
 ```
 
-Example: find /home/Andy -type f -name sales.txt
-&nbsp;
+Example: find /home/Andy -type f -name sales.txt <br><br>
 
 ## Find Directory based on directory name
 

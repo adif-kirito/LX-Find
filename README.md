@@ -1,6 +1,6 @@
-# Finding your way aroud linux
+# Linux Find Command
 
-One Paragraph of project description goes here
+Using find command to search for file or directory
 
 <!-- ----------------------------------------------- -->
 ## Find files based on filename

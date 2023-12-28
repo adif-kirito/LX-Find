@@ -10,7 +10,7 @@ find [directory path] -type f -name [filename]
 ```
 
 Example: find /home/Andy -type f -name sales.txt
-(  )
+&nbsp;
 
 ## Find Directory based on directory name
 

@@ -2,6 +2,7 @@
 
 One Paragraph of project description goes here
 
+<!-- First -->
 ## Find files based on filename
 
 ```
@@ -10,6 +11,13 @@ find [directory path] -type f -name [filename]
 
 Example: find /home/Andy -type f -name sales.txt
 
+## Find Directory based on directory name
+
+```
+find [directory path] -type d -name [filename]
+```
+
+Example: find /home/Andy -type d -name pictures
 
 delete when done
 ## Getting Started

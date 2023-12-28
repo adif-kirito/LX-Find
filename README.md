@@ -58,6 +58,54 @@ find [directory path] -type f -newermt '[date and time]'
 Example: find / -type f -newermt '6/30/2020 0:00:00' <br>
 *(all dates/times after 6/30/2020 0:00:00 will be considered a condition to look for)* <br><br>
 
+<!-- ----------------------------------------------- -->
+## Find files based on date modified
+
+```
+find [directory path] -type f -newermt [start date range] ! -newermt [end date range]
+```
+
+Example: find / -type f -newermt 2013-09-12 ! -newermt 2013-09-14 <br>
+*(all dates before 2013-09-12 will be excluded; all dates after 2013-09-14 will be excluded, therefore this only leaves 2013-09-13 as the date to look for.)* <br><br>
+
+<!-- ----------------------------------------------- -->
+## Find files based on date accessed
+
+```
+find [directory path] -type f -newerat [start date range] ! -newerat [end date range]
+```
+
+Example: find / -type f -newerat 2017-09-12 ! -newerat 2017-09-14 <br>
+*(all dates before 2017-09-12 will be excluded; all dates after 2017-09-14 will be excluded, therefore this only leaves 2017-09-13 as the date to look for.)* <br><br>
+
+<!-- ----------------------------------------------- -->
+## Find files with a specific keyword
+
+```
+grep -iRl [directory path/keyword]
+```
+
+Example: grep -iRl '/folderA/flag' <br><br>
+
+<!-- ----------------------------------------------- -->
+## Filter your results to exclude files/directories that you do not have permission to
+
+```
+2>/dev/null
+```
+
+<br><br>
+
+<!-- ----------------------------------------------- -->
+## Find Manual
+
+```
+man find
+```
+
+<br><br>
+
+
 delete when done
 ## Getting Started
 
@@ -139,6 +187,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
+* TryHackMe - Linux Strength Training(https://tryhackme.com/room/linuxstrengthtraining)
 * Inspiration
 * etc

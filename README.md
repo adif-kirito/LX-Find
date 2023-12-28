@@ -1,6 +1,7 @@
 # Linux Find Command
 
 Using find command to search for file or directory
+<br>
 
 <!-- ----------------------------------------------- -->
 ## Find files based on filename

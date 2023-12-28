@@ -17,7 +17,16 @@ Example: find /home/Andy -type f -name sales.txt <br><br>
 find [directory path] -type d -name [filename]
 ```
 
-Example: find /home/Andy -type d -name pictures
+Example: find /home/Andy -type d -name pictures <br><br>
+
+## Find files based on size
+
+```
+find [directory path] -type f -size [size]
+```
+
+Example: find /home/Andy -type f -size 10c
+*(c for bytes, k for kilobytes, M megabytes, G for gigabytes)* <br><br>
 
 delete when done
 ## Getting Started

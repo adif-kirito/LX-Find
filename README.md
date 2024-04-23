@@ -10,6 +10,12 @@ Using find command to search for file or directory
 find [directory path] -type f -name [filename]
 ```
 
+## Find files based on file extension
+
+```
+find [directory path] -type f -name "*.[ext]"
+```
+
 Example: find /home/Andy -type f -name sales.txt <br><br>
 
 <!-- ----------------------------------------------- -->
